@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Series Pitch: Clarkson Fixes Britain</title>
+  <style>
+    :root {
+      --bg: #f6f5f0;
+      --surface: #ffffff;
+      --ink: #1e241d;
+      --muted: #525c50;
+      --accent: #2d5a3c;
+      --accent-light: #e7efe9;
+      --gold: #b8862d;
+      --border: #dcdad0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif;
+      background-color: var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+    }
+
+    header {
+      background: var(--accent);
+      color: #ffffff;
+      padding: 3rem 2.5rem 2.5rem;
+      border-bottom: 5px solid var(--gold);
+    }
+
+    .kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #cfe0d4;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.01em;
+    }
+
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.5rem;
+      font-size: 0.92rem;
+      color: #e6efe8;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      padding-top: 1rem;
+    }
+
+    .meta-bar span strong {
+      color: #ffffff;
+    }
+
+    main {
+      padding: 2.5rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    section:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.35rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 2px solid var(--accent-light);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .logline {
+      background: var(--accent-light);
+      border-left: 4px solid var(--accent);
+      padding: 1.25rem 1.5rem;
+      font-size: 1.12rem;
+      font-weight: 500;
+      border-radius: 0 6px 6px 0;
+    }
+
+    ul, ol {
+      padding-left: 1.35rem;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+
+    .pillar-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      background: #fcfcfa;
+    }
+
+    .pillar-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      margin-bottom: 0.35rem;
+    }
+
+    .pillar-card h3 {
+      font-size: 1.08rem;
+      margin-bottom: 0.5rem;
+      color: var(--ink);
+    }
+
+    .pillar-card p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .finale-box {
+      background: #faf8f2;
+      border: 1px solid #e6dec8;
+      border-radius: 8px;
+      padding: 1.4rem 1.5rem;
+    }
+
+    footer {
+      background: #f0efe9;
+      padding: 1.25rem 2.5rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 600px) {
+      header, main, footer {
+        padding: 1.75rem 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <article class="container">
+    <header>
+      <div class="kicker">Original TV Series Pitch</div>
+      <h1>Clarkson Fixes Britain</h1>
+      <div class="meta-bar">
+        <span><strong>Genre:</strong> Uplifting Engineering, Nature &amp; Community Makeover</span>
+        <span><strong>Format:</strong> 8 &times; 60 mins (Regional Anthology)</span>
+        <span><strong>Tone:</strong> <em>Clarkson’s Farm</em> meets <em>Grand Designs</em></span>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>The Logline</h2>
+        <div class="logline">
+          After six years of battling floods, droughts, and red tape on his own farm, Jeremy Clarkson assembles a team of Britain’s sharpest ecologists, engineers, and problem-solvers to tackle “Broken Britain” at scale—adopting one struggling river valley per season to fix its flooding, polluted rivers, lost nature, and cut-off transport all at once.
+        </div>
+      </section>
+
+      <section>
+        <h2>The Premise &amp; “Why Now?”</h2>
+        <p>
+          <em>Clarkson’s Farm</em> diagnosed the problem: Britain’s climate is becoming more extreme, working the land is nearly impossible, and disjointed regulations are strangling the countryside. <strong><em>Clarkson Fixes Britain</em></strong> is the prescription.
+        </p>
+        <p>
+          Instead of preaching about climate change or getting bogged down in Westminster blame games, this series uses entertainment budgets to fund real-world, common-sense fixes on the ground. It strips away culture-war politics to prove a simple truth: <strong>fixing Broken Britain and restoring British nature are the exact same job.</strong>
+        </p>
+      </section>
+
+      <section>
+        <h2>The Format: The “Misery Matrix” &amp; War Room</h2>
+        <ol>
+          <li>
+            <strong>The Data Audit:</strong> In a central “War Room,” a systems-thinking meta-expert and specialist researchers overlay national datasets—flood risk, river pollution, lack of public green space, and lost rural transport links—onto a giant map of the UK to pinpoint towns suffering from all of them at once.
+          </li>
+          <li>
+            <strong>One Valley, One Blueprint:</strong> For Season 1, Jeremy adopts <strong>one overlapping river valley</strong> (from upland hills down to a market town) and deals with <strong>one local council</strong>. Because everything in a catchment connects, viewers see how fixing the hills saves the town downstream.
+          </li>
+          <li>
+            <strong>Parallel Builds:</strong> Rather than isolating one issue per episode, four interlocking projects run simultaneously across the season—cutting between muddy engineering breakthroughs, wildlife milestones, and comic collisions with local bureaucracy.
+          </li>
+          <li>
+            <strong>The Nationwide Blueprint:</strong> Every cost, legal workaround, and engineering fix is published openly so other British towns and farmers can copy-paste the blueprint without waiting years for government action.
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>The Ensemble Cast</h2>
+        <ul>
+          <li>
+            <strong>Jeremy Clarkson (The Sceptical Ringmaster):</strong> Puts his own reputation and graft on the line, translating complex ecological and engineering solutions into plain English for everyday viewers.
+          </li>
+          <li>
+            <strong>The Superstar Coordinator (The New “Charlie”):</strong> A pragmatic, unflappable project director who bridges the gap between ambitious science, council paperwork, and tight budgets.
+          </li>
+          <li>
+            <strong>The Familiar Face:</strong> The bird and wildlife specialist from <em>Clarkson’s Farm</em> Season 5, tracking the emotional return of vanished British species as habitats heal.
+          </li>
+          <li>
+            <strong>The Specialist Crew:</strong> A rotating cast of passionate experts—hydrologists, beaver biologists, silvopasture foresters, and lightweight rail engineers—paired with sceptical local farmers and residents who slowly become the show’s biggest champions.
+          </li>
+          <li>
+            <strong>Diddly Squat Cameos:</strong> Occasional drop-ins from Kaleb Cooper and Charlie Ireland as the voice of working-farmer reality.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Season 1: The Four Pillars (8-Episode Arc)</h2>
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-tag">Pillar 01</div>
+            <h3>Upstream Rewilding &amp; Flood Defence</h3>
+            <p>
+              Re-wetting degraded upland peat bogs, re-wiggling straightened rivers, and introducing beavers to slow storm water naturally before it floods the town high street.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-tag">Pillar 02</div>
+            <h3>Cleaning the River &amp; Silvopasture</h3>
+            <p>
+              Working alongside local livestock farmers to plant <strong>silvopasture</strong> shelterbelts (trees integrated into grazing pasture) and build natural reed beds that stop runoff and revive dying rivers.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-tag">Pillar 03</div>
+            <h3>Access to Wild Nature</h3>
+            <p>
+              Transforming neglected land on the edge of town into a thriving, public-access wild woodland and riverside trail—giving locals free green space for health, exercise, and seeing rewilding up close.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-tag">Pillar 04</div>
+            <h3>Reconnecting Lost Transport</h3>
+            <p>
+              Reclaiming an old Beeching-cut branch line or rural corridor to test <strong>Very Light Rail (VLR)</strong>—lightweight, autonomous battery-electric shuttle pods that reconnect a car-choked town cheaply and cleanly.
+            </p>
+          </div>
